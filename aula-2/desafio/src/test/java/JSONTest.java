@@ -122,7 +122,7 @@ public class JSONTest {
 
     @Test
     void product_shouldGenerateIdAutomatically() {
-        Product product = new Product("Auto ID", "Generated", new BigDecimal("1.00"), "Misc", "url", Instant.now(),
+        Product product = new Product("Product Name", "Generated", new BigDecimal("1.00"), "Misc", "url", Instant.now(),
                 Instant.now());
 
         Assertions.assertNotNull(product.getId());
