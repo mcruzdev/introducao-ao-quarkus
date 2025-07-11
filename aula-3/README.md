@@ -19,4 +19,4 @@ Exemplo de um evento:
 }
 ```
 
-A segunda vai ser responsável pelo CRUD de produtos, onde cada operação deve enviar uma notificação para o microserviço de `notificações` com a versão mais atualizada do produto (quando for deleção enviar o produto antes da deleção).
+A segunda vai ser responsável pelo CRUD de usuários, onde cada operação deve enviar uma notificação para o microserviço de `notificações` com a versão mais atualizada do usuário (quando for deleção enviar o produto antes da deleção).
